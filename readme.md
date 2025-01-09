@@ -1,4 +1,5 @@
 # GitHub CLI Application
+my solution for the [github-user-activity](https://roadmap.sh/projects/github-user-activity) challenge from [roadmap.sh](https://roadmap.sh/).
 
 A command-line interface application for interacting with GitHub, allowing users to perform common GitHub operations directly from their terminal.
 
@@ -23,7 +24,7 @@ github-cli login
 This command:
 1. Prompts for GitHub username
 2. Requests a personal access token
-3. Validates the provided credentials
+3. Validate the provided credentials
 4. Securely saves the credentials for future sessions
 
 ### Logout
@@ -70,7 +71,7 @@ The application is built using Node.js and implements several custom hooks for f
 - `useLogout.js`: Manages session termination
 - `useSaveCredentials.js`: Handles secure credential storage
 
-The application uses the Commander.js library for CLI argument parsing and command structure.
+The application uses the Commander.js library for CLI argument parsing and command structure. It also uses the Octokit GitHub SDK to aid user authentication.
 
 ## Version Information
 
