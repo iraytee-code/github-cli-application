@@ -97,4 +97,3 @@ To contribute to this project:
 
 ## License
 
-This project is open-source software licensed under the MIT license.
